@@ -2,7 +2,7 @@
 
 # Create a GCS bucket
 resource "google_storage_bucket" "test_bucket" {
-  name          = "testAshu-bucket-99568800" # Ensure this name is globally unique
+  name          = "testAshu-bucket-test00" # Ensure this name is globally unique
   location      = "US-CENTRAL1"
   force_destroy = true
 
