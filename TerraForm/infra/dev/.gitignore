@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+crash.log
+*.tfplan
+override.tf
+override.tf.json
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# JSON key files
+*.json
