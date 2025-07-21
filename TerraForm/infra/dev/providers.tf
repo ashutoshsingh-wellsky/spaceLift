@@ -2,11 +2,11 @@
 
 # Main provider using service account
 provider "google" {
-  
-  credentials = jsondecode(var.google_credentials)
+  credentials = var.google_credentials
   project     = "temp-ksaj9na8-wsky"
   region      = "us-east4"
 }
+
 
 
 # Alternative provider using user credentials for IAM operations
