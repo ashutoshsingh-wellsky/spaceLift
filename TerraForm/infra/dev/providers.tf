@@ -2,7 +2,8 @@
 
 # Main provider using service account
 provider "google" {
-  credentials = jsondecode(env("GOOGLE_CREDENTIALS"))
+  
+  credentials = jsondecode(var.google_credentials)
   project     = "temp-ksaj9na8-wsky"
   region      = "us-east4"
 }
